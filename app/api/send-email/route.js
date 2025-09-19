@@ -10,7 +10,6 @@ export async function POST(req) {
       });
     }
 
-    // Configure transporter for Purelymail
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
       port: process.env.SMTP_PORT,
@@ -21,7 +20,6 @@ export async function POST(req) {
       },
     });
 
-    // Send email
     await transporter.sendMail({
       from: `"Website Waitlist" <${process.env.SMTP_USER}>`,
       to: "waitlist@thegivexchange.com", // your receiving inbox
