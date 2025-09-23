@@ -28,10 +28,10 @@ const Contact = () => {
               <p className="text-gray-500 font-normal text-sm">Email</p>
               <p>
                 <Link
-                  href={`mailto:hello@givexchange.com`}
+                  href={`mailto:hello@thegivexchange.com`}
                   className="text-lg font-medium"
                 >
-                  hello@givexchange.com
+                  hello@thegivexchange.com
                 </Link>
               </p>
             </div>
@@ -42,7 +42,7 @@ const Contact = () => {
               <p className="text-gray-500 font-normal text-sm">Phone number</p>
               <p>
                 <Link href={`tel:8022998329`} className="text-lg font-medium">
-                  8022998329
+                  (802) 299-8329
                 </Link>
               </p>
             </div>
@@ -52,7 +52,7 @@ const Contact = () => {
             <div className="flex flex-col items-start gap-0">
               <p className="text-gray-500 font-normal text-sm">Address</p>
               <p className="text-lg font-medium">
-                5204 Mitchell st. Alexandria Va 22312
+                5204 Mitchell StAlexandria, VA 22312, USA
               </p>
             </div>
           </div>

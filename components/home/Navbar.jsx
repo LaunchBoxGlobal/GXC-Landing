@@ -64,7 +64,7 @@ const Navbar = () => {
               href={`#why-we-are-different`}
               className="font-medium text-gray-500"
             >
-              Why we
+              Why Us
             </a>
           </li>
         </ul>
@@ -74,7 +74,7 @@ const Navbar = () => {
             href={`#contact`}
             className="primary-bg text-white px-6 py-3 rounded-full text-sm font-semibold hidden lg:block"
           >
-            Contact Sales
+            Get in Touch
           </a>
 
           <button
