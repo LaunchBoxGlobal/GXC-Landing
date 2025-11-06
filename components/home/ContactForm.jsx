@@ -43,7 +43,7 @@ const ContactForm = () => {
           type="number"
           id="phone"
           name="phone"
-          placeholder="17472920712"
+          placeholder="(703) 646-0719"
           required
           className="w-full py-3 px-5 bg-gray-100 rounded-xl outline-none"
         />
