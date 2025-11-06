@@ -41,13 +41,14 @@ const Contact = () => {
             <div className="flex flex-col items-start gap-0">
               <p className="text-gray-500 font-normal text-sm">Phone number</p>
               <p>
-                <Link href={`tel:8022998329`} className="text-lg font-medium">
-                  (802) 299-8329
+                {/* (802) 299-8329 */}
+                <Link href={`tel:7036460719`} className="text-lg font-medium">
+                  (703) 646-0719
                 </Link>
               </p>
             </div>
           </div>
-          <div className="flex items-start gap-4">
+          {/* <div className="flex items-start gap-4">
             <FaLocationDot className="text-3xl primary-text" />
             <div className="flex flex-col items-start gap-0">
               <p className="text-gray-500 font-normal text-sm">Address</p>
@@ -55,7 +56,7 @@ const Contact = () => {
                 5204 Mitchell StAlexandria, VA 22312, USA
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="relative w-full">
           <ContactForm />
