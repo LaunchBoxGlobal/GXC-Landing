@@ -42,7 +42,7 @@ const Contact = () => {
               <p className="text-gray-500 font-normal text-sm">Phone number</p>
               <p>
                 {/* (802) 299-8329 */}
-                <Link href={`tel:7036460719`} className="text-lg font-medium">
+                <Link href="tel:+17036460719" className="text-lg font-medium">
                   (703) 646-0719
                 </Link>
               </p>
