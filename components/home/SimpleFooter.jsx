@@ -15,24 +15,30 @@ const SimpleFooter = () => {
 
         <ul className="flex items-center justify-center flex-wrap gap-x-10 gap-y-2">
           <li>
-            <a href={`/`} className="font-medium text-gray-500">
+            <Link href={`/`} className="font-medium text-gray-500">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href={`#about`} className="font-medium text-gray-500">
+            <Link href={`#about`} className="font-medium text-gray-500">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href={`/`} className="font-medium text-gray-500">
+            <Link
+              href={`/terms-and-conditions`}
+              className="font-medium text-gray-500"
+            >
               Terms of Service
-            </a>
+            </Link>
           </li>
           <li>
-            <a href={`/`} className="font-medium text-gray-500">
+            <Link
+              href={`/privacy-policy`}
+              className="font-medium text-gray-500"
+            >
               Privacy Policy
-            </a>
+            </Link>
           </li>
         </ul>
 
