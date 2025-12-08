@@ -1,3 +1,4 @@
+"use client";
 import Navbar from "@/components/home/Navbar";
 import SimpleFooter from "@/components/home/SimpleFooter";
 

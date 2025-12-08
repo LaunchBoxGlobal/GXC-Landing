@@ -1,3 +1,4 @@
+"use client";
 import Navbar from "@/components/home/Navbar";
 import SimpleFooter from "@/components/home/SimpleFooter";
 import Link from "next/link";
@@ -14,7 +15,7 @@ const PrivacyPolicy = () => {
 
         <div className="w-full">
           <p className="">
-            giveXchange (“we,” “our,” or “us”) is committed to protecting your
+            giveXchange (we, our, or us) is committed to protecting your
             privacy. This Privacy Policy explains how your personal information
             is collected, used, and disclosed by giveXchange.
           </p>
