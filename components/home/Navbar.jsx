@@ -103,22 +103,22 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href={`#about`} className="font-medium text-gray-500">
-                  About
+                <a href={`/#about`} className="font-medium text-gray-500">
+                  What It Is
                 </a>
               </li>
               <li>
-                <a href={`#workflow`} className="font-medium text-gray-500">
-                  Workflow
+                <a href={`/#workflow`} className="font-medium text-gray-500">
+                  How It Works
                 </a>
               </li>
 
               <li>
                 <a
-                  href={`#why-we-are-different`}
+                  href={`/#why-we-are-different`}
                   className="font-medium text-gray-500"
                 >
-                  Why we
+                  Why Us
                 </a>
               </li>
             </ul>
