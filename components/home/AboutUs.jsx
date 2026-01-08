@@ -14,23 +14,24 @@ const AboutUs = () => {
         </div>
         <div className="flex flex-col items-start justify-center gap-6 w-full mx-auto">
           <p className="text-base font-semibold bg-[#4e9d4b]/20 text-green-600 px-4 py-3 rounded-full leading-none m-0 p-0">
-            About Us
+            What it is
           </p>
-          <h2 className="section-heading leading-[1.1]">
-            Built for People, Not Corporations
+          <h2 className="section-heading leading-[1]">
+            Where Selling Supports Your Cause
           </h2>
-          <p className="hero-description text-gray-500">
-            Big-box platforms take the human touch out of commerce. GiveXChange
-            flips the script. Our platform lets trusted communities run their
-            own local marketplaces — invite-only, people-first, and powered by
-            simple tools that make sharing, buying, and selling effortless.
+          <p className="hero-description text-gray-500 leading-[1.2]">
+            GiveXChange is a digital marketplace that helps people raise money
+            by creating their own online fundraising communities. Hosts invite
+            others to join, buy, and sell items, and each sale automatically
+            splits proceeds—sending a portion to the fundraiser while the rest
+            goes back to the seller.
           </p>
-          <p className="hero-description text-gray-500">
+          {/* <p className="hero-description text-gray-500">
             When you shop on GiveXChange, your money doesn’t disappear into a
             faceless system. It circulates back into your community — rewarding
             sellers, supporting community leaders, and keeping value right where
             it belongs.
-          </p>
+          </p> */}
           <ContactButton title={`Contact Us`} />
         </div>
       </div>

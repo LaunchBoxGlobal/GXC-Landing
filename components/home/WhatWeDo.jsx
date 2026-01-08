@@ -5,10 +5,13 @@ import { BsArrowRight } from "react-icons/bs";
 
 const WhatWeDo = () => {
   return (
-    <section id="services" className="w-full padding-x padding-y bg-gray-100">
+    <section
+      id="why-we-are-different"
+      className="w-full padding-x padding-y bg-gray-100"
+    >
       <div className="">
         <span className="text-base font-semibold bg-[#4e9d4b]/20 text-[#4e9d4b] px-4 py-3 rounded-full leading-none m-0 p-0">
-          Features
+          Why Us
         </span>
       </div>
       {/* <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 py-10">

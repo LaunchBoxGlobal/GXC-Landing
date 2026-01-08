@@ -20,7 +20,7 @@ const SimpleFooter = () => {
             </Link>
           </li>
           <li>
-            <Link href={`#about`} className="font-medium text-gray-500">
+            <Link href={`/about-us`} className="font-medium text-gray-500">
               About
             </Link>
           </li>

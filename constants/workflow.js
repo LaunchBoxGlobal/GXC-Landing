@@ -1,22 +1,22 @@
 export const WORKFLOW = [
   {
-    title: "Get Invited",
+    title: "Create and Connect",
     description:
-      "Join through a friend, neighbor, or group you trust. Communities stay safe and invite-only.",
+      "Partner with GiveXChange to build your community marketplace and define your outreach plan.",
   },
   {
-    title: "List or Discover",
+    title: "Invite and Join",
     description:
-      "Sell what you have, find what you need. Every listing comes from someone in your circle.",
+      "Trusted members join by invitation, creating accounts that maintain a safe and secure marketplace.",
   },
   {
-    title: "Checkout Securely",
+    title: "Buy and Sell",
     description:
-      " Pay with confidence. Stripe processes transactions while GiveXChange ensures fair splits.",
+      "Sell what you have, find what you need. Every listing comes from someone in your community.",
   },
   {
-    title: "Strengthen Your Community",
+    title: "Earn and Give",
     description:
-      "With every purchase, sellers earn, community leaders get rewarded, and trust grows stronger.",
+      "Pay with confidence and process payments with the security of Stripe.Proceeds are automatically shared between the seller and the fundraiser.",
   },
 ];

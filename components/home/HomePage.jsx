@@ -23,18 +23,17 @@ const HomePage = () => {
   };
   return (
     <>
-      <Navbar />
       <Hero handleTogglePopup={handleTogglePopup} />
       <AboutUs />
       <WhoWeWorkWith />
       <WhatWeDo />
-      <WhyWeAreDifferent />
+      {/* <WhyWeAreDifferent /> */}
       {/* <Testinomials /> */}
       {/* <Faqs /> */}
       {/* <CTA /> */}
       <Contact />
       {/* <Footer /> */}
-      <SimpleFooter />
+
       <EmailPopup showPopup={showPopup} handleTogglePopup={handleTogglePopup} />
     </>
   );

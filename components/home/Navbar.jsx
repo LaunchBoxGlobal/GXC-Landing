@@ -44,24 +44,24 @@ const Navbar = () => {
         </Link>
         <ul className="hidden lg:flex items-center justify-center gap-x-10">
           <li>
-            <a href={`/`} className="font-medium text-gray-500">
+            <Link href={`/`} className="font-medium text-gray-500">
               Home
+            </Link>
+          </li>
+          <li>
+            <a href={`/#about`} className="font-medium text-gray-500">
+              What It Is
             </a>
           </li>
           <li>
-            <a href={`#about`} className="font-medium text-gray-500">
-              About
-            </a>
-          </li>
-          <li>
-            <a href={`#workflow`} className="font-medium text-gray-500">
-              Workflow
+            <a href={`/#workflow`} className="font-medium text-gray-500">
+              How It Works
             </a>
           </li>
 
           <li>
             <a
-              href={`#why-we-are-different`}
+              href={`/#why-we-are-different`}
               className="font-medium text-gray-500"
             >
               Why Us
@@ -71,7 +71,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-4 justify-end">
           <a
-            href={`#contact`}
+            href={`/#contact`}
             className="primary-bg text-white px-6 py-3 rounded-full text-sm font-semibold hidden lg:block"
           >
             Get in Touch

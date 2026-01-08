@@ -22,7 +22,7 @@ export async function POST(req) {
 
     await transporter.sendMail({
       from: `"Website Waitlist" <${process.env.SMTP_USER}>`,
-      to: "waitlist@thegivexchange.com", // your receiving inbox
+      to: "waitlist@thegivexchange.com",
       subject: "New Waitlist Signup",
       text: `A user signed up with email: ${email}`,
     });

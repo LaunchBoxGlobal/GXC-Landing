@@ -1,4 +1,6 @@
+import SimpleFooter from "@/components/home/SimpleFooter";
 import "./globals.css";
+import Navbar from "@/components/home/Navbar";
 
 export const metadata = {
   title: "GiveXChange",
@@ -8,7 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={``}>{children}</body>
+      <body className={``}>
+        <Navbar />
+        {children}
+        <SimpleFooter />
+      </body>
     </html>
   );
 }

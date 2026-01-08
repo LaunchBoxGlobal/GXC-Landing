@@ -18,19 +18,21 @@ export const content = [
 
 export const SERVICES = [
   {
-    title: "Invite-Only Access",
+    title: "Free and Easy",
     icon: MdOutlineInsertInvitation,
-    description: "Safe spaces built on trust.",
+    description:
+      "Eery transaction earns you funds—with minimal management required.",
   },
   {
-    title: "Community Feeds",
+    title: "Invite Only Access",
     icon: RiUserCommunityLine,
-    description: "See what’s available right where you belong.",
+    description: "Buy anmd sell within a trusted private community.",
   },
   {
-    title: "Fair Revenue Splits",
+    title: "Automatic Splits",
     icon: FaMoneyBillTransfer,
-    description: "Sellers, leaders, and the platform all win together.",
+    description:
+      "Everyone wins with seamless splits that support fundraisers, reward sellers, and serve buyers.",
   },
   {
     title: "Wallets & Withdrawals",
