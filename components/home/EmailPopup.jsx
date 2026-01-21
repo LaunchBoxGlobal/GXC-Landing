@@ -45,10 +45,10 @@ const EmailPopup = ({ showPopup, handleTogglePopup }) => {
             <IoClose className="w-full h-full" />
           </button>
           <h1 className="font-bold text-2xl text-center">
-            Join the Waitlist for GiveXChange!
+            Join the Waitlist for giveXchange!
           </h1>
           <p className="text-base mt-2 text-center text-gray-500 max-w-[340px]">
-            Join the waitlist and be the first to explore what GiveXChange has
+            Join the waitlist and be the first to explore what giveXchange has
             to offer!
           </p>
 

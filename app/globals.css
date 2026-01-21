@@ -37,10 +37,7 @@
 }
 
 .section-heading {
-  /* font-size: clamp(35px, 3rem, 5.5rem); */
-
-  font-weight: 600;
-  @apply tracking-tight text-[35px] md:text-[45px] lg:text-[50px];
+  @apply tracking-tight text-[25px] md:text-[35px] lg:text-[50px] font-semibold;
 }
 
 .custom-shadow {

@@ -11,7 +11,7 @@ const WhyWeAreDifferent = () => {
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-16 py-10">
         <div className="w-full relative">
           <div className="flex flex-col items-start justify-start gap-5 sticky top-32">
-            <h2 className="section-heading leading-[1.1]">Why GiveXChange</h2>
+            <h2 className="section-heading leading-[1.1]">Why giveXchange</h2>
             <div className="mt-4">
               <a
                 href={`#contact`}

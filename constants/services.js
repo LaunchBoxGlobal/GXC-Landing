@@ -4,6 +4,8 @@ import { FaMoneyBillTransfer } from "react-icons/fa6";
 import { IoIosWallet } from "react-icons/io";
 import { TbTruckDelivery } from "react-icons/tb";
 import { MdGeneratingTokens } from "react-icons/md";
+import { FaCircleCheck } from "react-icons/fa6";
+import { FaThumbsUp } from "react-icons/fa";
 
 export const content = [
   "Accounting Outsourcing",
@@ -19,20 +21,20 @@ export const content = [
 export const SERVICES = [
   {
     title: "Free and Easy",
-    icon: MdOutlineInsertInvitation,
+    icon: FaCircleCheck,
     description:
-      "Eery transaction earns you funds—with minimal management required.",
+      "Every transaction earns you funds—with minimal management required.",
   },
   {
     title: "Invite Only Access",
     icon: RiUserCommunityLine,
-    description: "Buy anmd sell within a trusted private community.",
+    description: "Buy and sell within a trusted private community.",
   },
   {
     title: "Automatic Splits",
     icon: FaMoneyBillTransfer,
     description:
-      "Everyone wins with seamless splits that support fundraisers, reward sellers, and serve buyers.",
+      "Everyone wins with seamless splits that support fundraisers and reward sellers.",
   },
   {
     title: "Wallets & Withdrawals",
@@ -46,7 +48,7 @@ export const SERVICES = [
   },
   {
     title: "Ratings & Reviews",
-    icon: MdGeneratingTokens,
+    icon: FaThumbsUp,
     description: "Keep interactions transparent and accountable.",
   },
 ];

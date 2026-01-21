@@ -36,7 +36,7 @@ const WhatWeDo = () => {
               key={i}
               className="w-full flex flex-col items-start gap-4 bg-white p-10 radius"
             >
-              <Icon className="text-4xl primary-text" />
+              <Icon className="primary-text" size={29} />
               <h3 className="font-semibold text-[1.3rem] group-hover:text-white transition-all duration-300">
                 {s?.title}
               </h3>

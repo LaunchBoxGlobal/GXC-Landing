@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/home/Navbar";
 
 export const metadata = {
-  title: "GiveXChange",
+  title: "giveXchange",
   description: "",
 };
 

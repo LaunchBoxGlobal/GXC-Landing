@@ -21,7 +21,7 @@ const SimpleFooter = () => {
           </li>
           <li>
             <Link href={`/about-us`} className="font-medium text-gray-500">
-              About
+              About Us
             </Link>
           </li>
           <li>
@@ -45,7 +45,7 @@ const SimpleFooter = () => {
         <div className="w-full border opacity-40" />
         <div className="w-full text-center">
           <p className="text-sm text-gray-400">
-            Copyright © 2025 GiveXChange. All Rights Reserved.
+            Copyright © 2025 giveXchange. All Rights Reserved.
           </p>
         </div>
       </div>

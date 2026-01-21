@@ -96,7 +96,10 @@ const Navbar = () => {
               <IoClose className="text-3xl md:text-xl" />
             </button>
 
-            <ul className="flex  flex-col items-start justify-start gap-4 mt-10">
+            <ul
+              onClick={() => toggleSidebar()}
+              className="flex  flex-col items-start justify-start gap-4 mt-10"
+            >
               <li>
                 <a href={`/`} className="font-medium text-gray-500">
                   Home
@@ -120,6 +123,11 @@ const Navbar = () => {
                 >
                   Why Us
                 </a>
+              </li>
+              <li>
+                <Link href={`/about-us`} className="font-medium text-gray-500">
+                  About Us
+                </Link>
               </li>
             </ul>
           </div>

@@ -71,15 +71,8 @@ const ContactForm = () => {
     setFormType(type);
 
     if (!validateAllFields()) return;
-    // if (!formType) return;
 
     try {
-      // setLoading(true);
-      console.log("formType >>> ", formType);
-      console.log("data >>> ", data);
-
-      // return;
-
       const res = await fetch("/api/contact-us", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -88,8 +81,6 @@ const ContactForm = () => {
           formType: type,
         }),
       });
-
-      console.log(res);
 
       if (res.ok) {
         alert("Message sent successfully!");
