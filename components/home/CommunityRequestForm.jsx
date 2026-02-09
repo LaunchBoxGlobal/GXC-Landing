@@ -195,7 +195,7 @@ const CommunityRequestForm = () => {
       />
 
       <Textarea
-        label="Exchange Method"
+        label="Do you anticipate having a common location/date to exchange goods or will exchange be up to invidivudal buyers and sellers?												"
         name="exchangeMethod"
         value={data.exchangeMethod}
         onChange={handleChange}
@@ -251,7 +251,7 @@ const Select = ({ label, options, error, ...props }) => (
 
 const Textarea = ({ label, error, ...props }) => (
   <div className="flex flex-col gap-1">
-    <label className="font-medium">{label}</label>
+    <label className="font-medium leading-[1.35]">{label}</label>
     <textarea
       {...props}
       rows="4"
