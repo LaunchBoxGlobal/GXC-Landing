@@ -27,9 +27,9 @@ const Hero = ({ handleTogglePopup, toggleFormType }) => {
         </div>
         <div className="flex items-start justify-center xl:px-5">
           <img
-            src="/vecteezy_illustration-isometric-concept-safety-of-online-shopping-in_5638074.jpg"
+            src="/hero-section-image.jpg"
             alt=""
-            className="w-full md:w-[70%] lg:w-full h-full"
+            className="w-full md:w-[75%] lg:w-full h-full"
           />
         </div>
       </div>

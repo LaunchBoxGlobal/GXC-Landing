@@ -7,9 +7,9 @@ const AboutUs = () => {
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 pb-10">
         <div className="flex items-center justify-center order-2 lg:order-1">
           <img
-            src="/vecteezy_isometric-illustration-concept-online-shopping-e-commerce_5638065-removebg-preview.png"
+            src="/Mask group@3x.png"
             alt="about-image"
-            className="object-contain"
+            className="object-contain md:max-w-[80%]"
           />
         </div>
 

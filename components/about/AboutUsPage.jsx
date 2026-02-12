@@ -15,6 +15,14 @@ export default function AboutUsPage() {
         </div>
       </section>
 
+      <section className="w-full padding-x pb-10">
+        <img
+          src="/giveXchange_owner_image.jfif"
+          alt="about-image"
+          className="object-contain md:max-w-[40%] mx-auto"
+        />
+      </section>
+
       {/* WHO WE ARE */}
       <section className="bg-gray-50">
         <div className="max-w-6xl mx-auto px-6 py-20 text-center">
