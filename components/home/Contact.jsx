@@ -14,18 +14,18 @@ const Contact = ({ formType, toggleFormType }) => {
             community? Let's explore the possibilitie.
           </p>
 
-          <div className="mt-2 space-x-3">
+          <div className="mt-2 space-x-3 space-y-3">
             <button
               type="button"
               onClick={() => toggleFormType("consultation")}
-              className="primary-bg text-white font-semibold text-sm px-4 py-3 rounded-lg"
+              className="primary-bg text-white font-semibold text-xs md:text-sm px-3 md:px-4 py-3 rounded-lg"
             >
               Schedule a Consult
             </button>
             <button
               type="button"
               onClick={() => toggleFormType("community-request")}
-              className="primary-bg text-white font-semibold text-sm px-4 py-3 rounded-lg"
+              className="primary-bg text-white font-semibold text-xs md:text-sm px-3 md:px-4 py-3 rounded-lg"
             >
               Community Request Form
             </button>
